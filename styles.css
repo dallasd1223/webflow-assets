@@ -7,7 +7,14 @@
   touch-action: pan-y pinch-zoom;
 }
 
-.embla__slide {
+.event-carousel .embla__slide {
+  flex: 0 0 22%;
+  min-width: 0;
+
+  padding-right: 20px;
+}
+
+.trust-carousel .embla__slide {
   flex: 0 0 22%;
   min-width: 0;
 
